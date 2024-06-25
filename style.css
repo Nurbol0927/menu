@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body {
+  /*  font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+*/
+     
+     
+    font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+
+
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ce6f6f, #fd3700, #f13704, #ff0724, #ff0000);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  color: #333;
+
+ 
+  }
+  
+
+header {
+    width: 100%;
+    
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 220px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.onigiri{
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 0;
+    color: red;
+    font-family: "Lobster", sans-serif;
+
+}
+
+.dish {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    width: 150px;
+    border-radius: 50px;
+}
+
+.dish img {
+    width: 100px;
+    height: 100px;
+}
+
+.cart {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 2rem;
+    width: 300px;
+    border-radius: 35px;
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    
+ 
+    
+}
+
+.cart ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: "Lobster", sans-serif;
+}
+
+.cart li {
+    margin: 0.5rem 0;
+    font-family: "Lobster", sans-serif;
+}
+
+
+
+/*butt*/
+.button {
+    width: 120px;
+    padding: 0;
+    border: none;
+    transform: rotate(5deg);
+    transform-origin: center;
+    font-family: "Gochi Hand", cursive;
+    text-decoration: none;
+    font-size: 15x;
+    cursor: pointer;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    box-shadow: 0 2px 0 #494a4b;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-color: #00be56;
+    font-family: "Lobster", sans-serif;
+  }
+  
+  .button span {
+    background: #f1f5f8;
+    display: block;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 2px solid #0004e2;
+  }
+  
+  .button:active {
+    transform: translateY(5px);
+    padding-bottom: 0px;
+    outline: 0;
+  }
+  
+
+
+  /*menu*/
+  .dish:hover{
+    transform: scale(1.1);
+    transition: 203ms;
+  }
+
+
+
+
+
+  

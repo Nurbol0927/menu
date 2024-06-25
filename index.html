@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="yamato.png" alt="Лого" class="logo">
+      
+    </header>
+    <main>
+        
+
+        <div class="menu">
+            <div class="dish" data-price="150">
+                <img src="./Еда_Онигири.webp" alt="Онигири с Рыбой">
+                <p>Onigiri with Salmon</p>
+                <button class="button" onclick="addToCart(this)">Add</button>
+            </div>
+            <div class="dish" data-price="320 som">
+                <img src="sushi.png" alt="">
+                <p>Sushi with tuna</p>
+                <button class="button" onclick="addToCart(this)">Add</button>
+            </div>
+            <div class="dish" data-price="120">
+                <img src="ramen.png" alt="">
+                <p>Ramen</p>
+                <button class="button" onclick="addToCart(this)">Add</button>
+            </div>
+            <div class="dish" data-price="200">
+                <img src="./bliny-s-muasom.png" alt="">
+                <p>Pancakes</p>
+                <button class="button" onclick="addToCart(this)">Add</button>
+            </div>
+            <div class="dish" data-price="50">
+                            <img src="coffe.png" alt="">
+                <p>coffe</p>
+                <button class="button" onclick="addToCart(this)">Add</button>
+            </div>
+            
+        </div>
+        <div class="cart">
+            <h2>basket</h2>
+            <ul id="cart-items"></ul>
+            <p>total amount: <span id="total-price">0</span> Som.</p>
+        </div>
+
+
+
+
+
+
+
+
+    </main>
+      
+    <script src="script.js"></script>
+</body>
+</html>
